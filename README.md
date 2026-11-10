@@ -31,7 +31,7 @@ not include trained weights or training logs.
 
 ## Processed real-engine test data
 
-[`processed_engine_testdata.csv`](../processed_engine_testdata.csv) contains one
+[`processed_engine_testdata.csv`](./processed_engine_testdata.csv) contains one
 processed flight record from an engine experiment. The nine model
 inputs, in order, are `D8`, `a1`, `a2`, `PLA`, `H`, `M`, `V`, `n2`, and `n1`.
 The prediction targets are `T1` and `T6`. The manuscript refers to `M` as `Ma`.
