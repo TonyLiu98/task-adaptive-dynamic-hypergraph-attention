@@ -22,8 +22,7 @@ set `device = "cpu"` in `model_demo.py`.
 
 The FD001 defaults are a 30-cycle window, 14 sensor channels, five hyperedges,
 top-`k` of 3, a model width of 64, four attention heads, and a dropout rate
-of 0.2. The source uses a separate 32-dimensional structural embedding for
-nodes and hyperedges. The input shape is `[batch, time, sensors]`; the output
+of 0.2. The input shape is `[batch, time, sensors]`; the output
 has one scalar per input window.
 
 The example does not train the model or reproduce the reported performance
