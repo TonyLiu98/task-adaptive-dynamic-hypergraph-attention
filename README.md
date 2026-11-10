@@ -13,6 +13,7 @@ the model source and a minimal forward-pass example using synthetic inputs.
 ## Run the example
 
 ```sh
+cd "forward-pass demo"
 python -m pip install -r requirements.txt
 python model_demo.py
 ```
